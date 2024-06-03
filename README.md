@@ -28,7 +28,7 @@
 Рисунок 2. Окно Абитуриента. 
 </br> </br> </br></br>
 
-![подача заявки](https://github.com/Rimiranaa/Applicant-Management-System/blob/main/Screenshots/3.png)
+![подача заявки](https://github.com/Rimiranaa/Applicant-Management-System/blob/main/Screenshots/3.png)</br>
 Рисунок 3. Окно подачи заявления. </br>
 </br> </br> </br></br>
 
@@ -36,19 +36,19 @@
 Рисунок 4. Окно Админа. </br>
 </br> </br> </br></br>
 
-![Окно добавления пользователя](https://github.com/Rimiranaa/Applicant-Management-System/blob/main/Screenshots/5.png)
+![Окно добавления пользователя](https://github.com/Rimiranaa/Applicant-Management-System/blob/main/Screenshots/5.png)</br>
 Рисунок 5. Окно добавления пользователя. </br>
 </br></br> </br></br>
 
-![Окно редактирования заявки](https://github.com/Rimiranaa/Applicant-Management-System/blob/main/Screenshots/6.png)
+![Окно редактирования заявки](https://github.com/Rimiranaa/Applicant-Management-System/blob/main/Screenshots/6.png)</br>
 Рисунок 6. Окно редактирования заявки. </br>
 </br></br> </br></br>
 
-![Окно добавления специальности](https://github.com/Rimiranaa/Applicant-Management-System/blob/main/Screenshots/7.png)
+![Окно добавления специальности](https://github.com/Rimiranaa/Applicant-Management-System/blob/main/Screenshots/7.png)</br>
 Рисунок 7. Окно добавления специальности. </br>
 </br></br> </br></br>
 
-![Окно добавления вступительного экзамена](https://github.com/Rimiranaa/Applicant-Management-System/blob/main/Screenshots/8.png)
+![Окно добавления вступительного экзамена](https://github.com/Rimiranaa/Applicant-Management-System/blob/main/Screenshots/8.png)</br>
 Рисунок 8. Окно добавления вступительного экзамена. </br>
 </br></br> </br></br>
 
