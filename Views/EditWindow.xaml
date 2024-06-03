@@ -1,0 +1,59 @@
+﻿<Window x:Class="AppManagement.Views.EditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppManagement.Views"
+        mc:Ignorable="d"
+        Title="EditWindow"  SizeToContent="WidthAndHeight"  WindowStartupLocation="CenterScreen" Height="284" Width="375">
+    <Grid Background="#6495ED">
+        <Border MinWidth="20" MinHeight="20" Background="White" VerticalAlignment="Center" HorizontalAlignment="Center"  Padding="20" CornerRadius="20" Height="248" Width="355">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="30" Color="#2A4580" ShadowDepth="0"/>
+            </Border.Effect>
+        </Border>
+
+
+        <TextBlock Margin="25,15,229,238">ФИО:</TextBlock>
+        <TextBox  Name="FullNameBox" MinWidth="25" Margin="25,36,25,215"/>
+        <TextBlock Margin="25,53,202,194">Серия и номер паспорта:</TextBlock>
+        <TextBox  Name="PassportNumber" MinWidth="25" Margin="25,74,25,176"/>
+        <TextBlock Margin="25,92,176,158">Номер телефона:</TextBlock>
+        <TextBox  Name="PhoneBox" MinWidth="25" Margin="25,110,25,140"/>
+        <TextBlock Margin="25,133,176,118">Специальность:</TextBlock>
+        <ComboBox Name="ProfessionBox" Width="100" Height="15" RenderTransformOrigin="0.498,0.59" Margin="25,151,250,102" >
+
+        </ComboBox>
+        <TextBlock Margin="25,171,202,80">Вступительные экзамены:</TextBlock>
+        <ComboBox Name="ExamBox" Width="100" Height="15" Margin="25,188,250,65">
+
+        </ComboBox>
+        <TextBlock Margin="250,133,71,118">Статус:</TextBlock>
+        <ComboBox Name="StatusBox" Width="100" Height="15" Margin="250,151,25,102">
+
+        </ComboBox>
+
+        <WrapPanel Grid.Row="2" HorizontalAlignment="Right" Margin="0,15,0,0"/>
+        <Button FontWeight="Bold" Background="White" IsDefault="True" Click="Accept_Click" MinWidth="60" Margin="25,214,258,31" Content="Сохранить" RenderTransformOrigin="0.5,0.5">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button FontWeight="Bold" Background="White" IsDefault="True" Click="Delete_Click" MinWidth="60" Margin="142,214,141,31" Content="Удалить" RenderTransformOrigin="0.5,0.5">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button FontWeight="Bold" Background="White" IsDefault="True" Click="Back_Click" MinWidth="60" Margin="258,214,25,31" Content="Назад" RenderTransformOrigin="0.5,0.5">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+    </Grid>
+</Window>

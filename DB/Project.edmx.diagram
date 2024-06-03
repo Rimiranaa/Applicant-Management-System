@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1d982385513243ad97ff39696f332daa" Name="Diagram1">
+        <EntityTypeShape EntityType="ProgectModel.Application" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProgectModel.Exams" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProgectModel.Professions" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProgectModel.Roles" Width="1.5" PointX="2.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProgectModel.Status" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProgectModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProgectModel.Users" Width="1.5" PointX="5" PointY="4.875" IsExpanded="true" />
+        <AssociationConnector Association="ProgectModel.FK_Application_Exams" ManuallyRouted="false" />
+        <AssociationConnector Association="ProgectModel.FK_Application_Professions" ManuallyRouted="false" />
+        <AssociationConnector Association="ProgectModel.FK_Application_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="ProgectModel.FK_Users_Roles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
